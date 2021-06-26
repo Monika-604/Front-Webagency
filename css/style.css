@@ -1,0 +1,290 @@
+a{
+	text-decoration: none;
+	color: black;
+}
+
+div.img1{
+	padding-top: 25px;
+}
+
+
+ul.debut{
+
+    display: flex;
+    list-style-type: none;
+
+
+
+}
+/* premier chifre est les hauts et les bas aux element dexieme chiffre est les droit et les gauche*/
+ul.debut li{
+	padding: 25px 10px ;
+	
+}
+ul.debut li:hover {
+border-top: solid 2px #408AAB; 
+}
+
+/* diplay pour alignier le logo et la nav*/
+header{
+	display: flex;
+	justify-content: space-around;
+    
+
+}
+
+.trait1{
+	width: 200px;
+	height: 2px;
+	background-color: gray;
+	position: absolute;
+	margin-top: 6px;
+	
+
+}
+.rondbleu1{
+	background-color: blue;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	border: 2px solid white;
+    margin-top: -3px;
+	
+
+}
+.separateur1{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	height: 20px;
+}
+
+div.back {
+	
+	position: absolute;
+	top: 30%;
+	left: 10%;	
+}
+
+
+#acceuil{
+	margin-top: 100px;
+}
+
+div.bannier img{
+	width: 100%;
+	margin-top: -3rem;	
+}
+
+div.bannier{
+	position: relative;
+}
+.flechdroit, .flechgauche{
+	position: absolute;
+	top: 50%;
+} 
+.flechgauche{
+	left: 0px;
+	border-radius: 0px 40px 40px 0px;
+	background-color:rgba(0, 0, 0, 0.25);
+	padding: 15px 20px 15px 5px;
+
+}
+.flechdroit{
+	right: 0px;
+	border-radius: 40px 0px 0px 40px;
+	background-color:rgba(0, 0, 0, 0.25);
+	padding: 15px 20px 15px 5px;
+
+}
+
+.infos{
+	background-color: #408AAB;
+	color: white;
+	padding: 15px;
+	border-radius: 5px;
+}
+div#trait-bleu{
+	background-color: #408AAB;
+	width: 10%;
+	height: 2px;
+	margin-top: -20px;
+	position: absolute;
+	bottom: 2%;
+
+}
+
+h1,h6{
+	text-align: center;
+	/* position: fixed; */
+}
+
+p,label {
+    font: 1rem 'Fira Sans', sans-serif;
+    
+}
+
+h5{
+	text-align: center;
+}
+
+.parentphoto{
+	display: flex;
+}
+#left{
+	
+	width: 50%;
+}
+#right{
+
+width: 50%;
+}
+ #right li dt{
+	font-weight: bold;
+}
+li{
+	list-style-type: none;
+}
+
+.services .fa {
+	width: 40px; 
+	height: 40px;
+	border:2px solid black;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.smallCircle{
+	width: 10px;
+	height: 10px;
+	background-color: blue;
+	border-radius: 10px;
+	margin-top: 17px;
+	margin-right: 16px;
+	margin-left: -7px;
+	border: 2px solid white;
+}
+.design{
+	display: flex;
+}
+
+
+
+
+.trait{
+	width: 200px;
+	height: 2px;
+	background-color: gray;
+	position: absolute;
+	margin-top: 6px;
+	
+
+}
+.rondbleu{
+	background-color: blue;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	border: 2px solid white;
+    margin-top: -3px;
+	
+
+}
+.separateur{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	height: 20px;
+}
+ul.all{
+
+    list-style: none;
+    text-align:center;
+   	display: flex;
+   	width: 50%;
+   	margin-right: auto;
+   	margin-left: auto;
+   	flex-wrap: wrap;
+    
+   }
+ul.all li.menugris{
+	
+	padding: 5px;
+	background-color: silver;
+	margin:0px;
+	width: 20%;
+}
+
+#contenu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+      
+}
+
+figure{
+	width: 20%;
+	margin: 10px;
+}
+
+figure img{
+	width: 100%;
+}
+.blue{
+	background-color: #408AAB;
+	padding: 5px;
+	border-radius: 4px 0px 0px 4px;
+	border-bottom: 4px solid blue;
+	width: 20%;
+
+}
+.parenttriangle{
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	padding: 0 5px 5px 5px;
+
+}
+.triangle{
+	border-top: 7px solid blue;
+	border-right: 7px solid transparent;
+	border-left: 7px solid transparent;
+	width: 0%;
+	height:0px;
+    
+    
+}
+
+.voileblue{
+	 width: 100%;
+    height:700px;
+    background-color: rgba(102,178,255,0.25);
+    position: absolute;
+
+}
+
+.plan{
+
+	 width: 100%;
+    height:700px;
+    position: absolute;
+}
+.form{
+
+	position: absolute;
+	left:70%;
+	margin-top: 1px;
+	width: 40%;
+	height: 700px;
+	background-color: grey;
+
+}
+.p{
+	line-height: 1em;
+}
+
